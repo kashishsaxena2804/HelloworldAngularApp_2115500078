@@ -1,5 +1,35 @@
-img{
-    display: block;
-    margin: 0 auto;
-    width: 25%;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  img {
+    cursor: pointer;
+    width: 250px; // Adjust size as needed
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error-output {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
